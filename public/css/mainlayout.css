@@ -1,0 +1,63 @@
+body
+{
+    overflow: hidden;
+}
+#topbar
+{
+    background: rgb(204, 204, 204);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 30px;
+}
+.logos
+{
+    padding: 4px 15px 4px 4px;
+    cursor: pointer;
+}
+#flex-items
+{
+    display: inline-flex;
+    width: 100%;
+}
+#sidebar
+{
+    background: #152039;
+    width: 15%;
+    height: 100%;
+    margin-top: -22px;
+    overflow-y: auto;
+}
+#sidebar-title
+{
+    padding: 45px 10px 10px 10px;
+}
+.all-links
+{
+    background: transparent;
+    color: rgb(207, 202, 202);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.all-links:hover
+{
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+.icons
+{
+    margin-right: 25px;
+}
+.active 
+{
+    background: #617c57;
+}
+#contents
+{
+    height: 100%;
+    width: 85%;
+    overflow-y: auto;
+}
+.url_active
+{
+    background: #617c57;
+}
